@@ -1,0 +1,32 @@
+ImageSetClass {
+ Name "omd_slots"
+ RefSize 512 512
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "OMD_Armor/data/imagesets/omd_slots.paa"
+  }
+ }
+ Images {
+  ImageSetDefClass plate_ru {
+   Name "plate_ru"
+   Pos 0 0
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass plate_us {
+   Name "plate_us"
+   Pos 171 0
+   Size 170 170
+   Flags 0
+  }
+  ImageSetDefClass plate_plain {
+   Name "plate_plain"
+   Pos 342 0
+   Size 170 170
+   Flags 0
+  }
+ }
+ Groups {
+ }
+}
